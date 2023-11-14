@@ -1,0 +1,57 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.currentDate, .currentTime{
+    width: 680px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currentDate div,
+.currentTime div{
+    background-color: #fff;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+.currentDate #session{
+    background: rgb(3, 240, 27);
+    color: rgb(255, 255, 255);
+}
+
+.currentTime #day{
+    background: red;
+    color: aliceblue;
+}
+
+.currentDate span,
+.currentTime span{
+    font-weight: bolder;
+    font-size: 80px;
+    color: #202020;
+
+}
+
